@@ -1,0 +1,53 @@
+.table-view-cards {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.table-view-with-stats-cards {
+  margin: 1rem;
+}
+.table-view-edit-product {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 0.5rem;
+}
+
+
+.table-view-edit-product-with-cross {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.MuiSwitch-track {
+  background-color: aliceblue !important;
+}
+
+.MuiSwitch-switchBase.Mui-checked {
+  color: #87c750 !important;
+}
+.MuiDialog-paper {
+  background-color: #363835 !important;
+}
+.MuiDialog-paper {
+  color: white !important;
+}
+.MuiInputLabel-root {
+  color: white !important;
+}
+.MuiOutlinedInput-input {
+  color: darkgray !important;
+}
+.MuiButton-root {
+  color: #87c750 !important;
+}
+
+@media (max-width: 768px) {
+  .table-view-cards {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .table-view-with-stats-cards {
+    overflow-x: hidden;
+  }
+}
