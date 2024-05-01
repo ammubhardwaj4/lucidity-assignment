@@ -1,6 +1,6 @@
 # Project Deploy Link
 
-https://inventory-management-one-livid.vercel.app/
+--
 
 # Getting Started with Create React App
 
